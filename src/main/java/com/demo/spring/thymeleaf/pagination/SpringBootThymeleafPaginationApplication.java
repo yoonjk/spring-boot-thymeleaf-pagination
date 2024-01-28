@@ -2,7 +2,7 @@ package com.demo.spring.thymeleaf.pagination;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+ 
 @SpringBootApplication
 public class SpringBootThymeleafPaginationApplication {
 
