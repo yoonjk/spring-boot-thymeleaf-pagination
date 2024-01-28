@@ -1,4 +1,4 @@
-package com.bezkoder.spring.thymeleaf.pagination.repository;
+package com.demo.spring.thymeleaf.pagination.repository;
 
 import javax.transaction.Transactional;
 
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.bezkoder.spring.thymeleaf.pagination.entity.Tutorial;
+import com.demo.spring.thymeleaf.pagination.entity.Tutorial;
 
 @Repository
 @Transactional

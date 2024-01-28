@@ -1,4 +1,4 @@
-package com.bezkoder.spring.thymeleaf.pagination.entity;
+package com.demo.spring.thymeleaf.pagination.entity;
 
 import javax.persistence.*;
 

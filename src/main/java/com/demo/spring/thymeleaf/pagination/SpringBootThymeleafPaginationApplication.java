@@ -1,4 +1,4 @@
-package com.bezkoder.spring.thymeleaf.pagination;
+package com.demo.spring.thymeleaf.pagination;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.thymeleaf.pagination.controller;
+package com.demo.spring.thymeleaf.pagination.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.bezkoder.spring.thymeleaf.pagination.entity.Tutorial;
-import com.bezkoder.spring.thymeleaf.pagination.repository.TutorialRepository;
+import com.demo.spring.thymeleaf.pagination.dto.Account;
+import com.demo.spring.thymeleaf.pagination.entity.Tutorial;
+import com.demo.spring.thymeleaf.pagination.repository.TutorialRepository;
 
 @Controller
 public class TutorialController {
@@ -121,5 +122,11 @@ public class TutorialController {
     }
 
     return "redirect:/tutorials";
+  }
+  
+  @GetMapping("/")
+  public String index(Model model) {
+      model.addAttribute("account", new Account());
+      return "index";
   }
 }
